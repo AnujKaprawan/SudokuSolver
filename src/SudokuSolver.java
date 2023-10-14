@@ -42,7 +42,7 @@ public class SudokuSolver extends JFrame {
         add(buttonPanel, BorderLayout.SOUTH);
     }
 
-    // Method to solve the Sudoku puzzle using backtracking
+    // Method to solve the Sudoku puzzle
     private boolean solveSudoku() {
         int[][] board = new int[9][9];
 
@@ -77,7 +77,7 @@ public class SudokuSolver extends JFrame {
         }
     }
 
-    // Recursive backtracking algorithm to solve the Sudoku puzzle
+    // Recursive backtracking algorithm to solve
     private boolean solveSudoku(int[][] board) {
         for (int row = 0; row < 9; row++) {
             for (int col = 0; col < 9; col++) {
