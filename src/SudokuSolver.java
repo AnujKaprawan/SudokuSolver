@@ -1,3 +1,7 @@
+// This is just a simple program that will just generate a sudoku grid
+// When we click solve it will automatically fill the grid
+
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
